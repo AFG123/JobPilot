@@ -1,0 +1,108 @@
+{
+  "version": "1.0.0",
+  "candidate": {
+    "name": "Candidate Zero (Synthetic Placeholder)",
+    "email": "synthetic.placeholder@example.local",
+    "phone": "+1-000-000-0000",
+    "location": "Synthetic City, State",
+    "timezone": "UTC"
+  },
+  "verified_facts": {
+    "skills": [
+      {
+        "id": "fact_skill_synth_backend",
+        "name": "Synthetic Backend Runtime",
+        "category": "backend_engineering",
+        "years_experience": 5,
+        "proficiency": "expert",
+        "evidence_fact_ids": ["fact_exp_synth_corp_01", "fact_proj_alpha"]
+      },
+      {
+        "id": "fact_skill_synth_relational_db",
+        "name": "Synthetic Relational Database",
+        "category": "database_systems",
+        "years_experience": 4,
+        "proficiency": "advanced",
+        "evidence_fact_ids": ["fact_exp_synth_corp_01"]
+      },
+      {
+        "id": "fact_skill_synth_sys_design",
+        "name": "Distributed System Architecture",
+        "category": "system_design",
+        "years_experience": 4,
+        "proficiency": "advanced",
+        "evidence_fact_ids": ["fact_exp_synth_corp_01"]
+      }
+    ],
+    "experience": [
+      {
+        "id": "fact_exp_synth_corp_01",
+        "company": "Synthetic Corp Alpha",
+        "title": "Lead Synthetic Systems Engineer",
+        "start_date": "2022-01",
+        "end_date": "2024-01",
+        "location": "Remote",
+        "achievements": [
+          {
+            "id": "fact_exp_synth_bullet_001",
+            "text": "Engineered mock data pipeline processing 50,000 synthetic test messages per second with zero message loss.",
+            "skills": ["fact_skill_synth_backend", "fact_skill_synth_sys_design"]
+          },
+          {
+            "id": "fact_exp_synth_bullet_002",
+            "text": "Refactored relational query layer, reducing average simulated test suite latency by 40%.",
+            "skills": ["fact_skill_synth_relational_db"]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "fact_proj_alpha",
+        "name": "Project Alpha Placeholder",
+        "role": "Synthetic System Designer",
+        "description": "Benchmark project validating deterministic scoring algorithms against structured test fixtures.",
+        "skills": ["fact_skill_synth_backend"]
+      }
+    ],
+    "education": [
+      {
+        "id": "fact_edu_synth_degree",
+        "institution": "Sample Technical University",
+        "degree": "B.S. in Computer Science (Synthetic Example)",
+        "start_year": 2016,
+        "graduation_year": 2020
+      }
+    ],
+    "certifications": []
+  },
+  "preferences": {
+    "target_roles": [
+      { "title": "Staff Software Engineer", "weight": 1.0 },
+      { "title": "Senior Backend Engineer", "weight": 0.95 }
+    ],
+    "disallowed_roles": [
+      "Front-End Specialist",
+      "Technical Sales Representative"
+    ],
+    "locations": {
+      "remote_only": true,
+      "allowed_countries": ["US"],
+      "preferred_timezones": ["UTC-8", "UTC-5"]
+    },
+    "compensation": {
+      "currency": "USD",
+      "min_base_salary": 160000,
+      "target_base_salary": 190000
+    },
+    "company_preferences": {
+      "min_company_size": 20,
+      "max_company_size": 1500,
+      "excluded_industries": ["High-Frequency Gambling", "Cryptocurrency Speculation"]
+    },
+    "work_authorization": {
+      "citizen_of": ["US"],
+      "requires_sponsorship": false
+    }
+  }
+}
